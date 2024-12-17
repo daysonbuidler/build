@@ -1,0 +1,5 @@
+import json
+
+if __name__ == "__main__":
+    with open('config.json') as file:
+        config = json.load(file)
