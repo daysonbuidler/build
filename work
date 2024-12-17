@@ -1,5 +1,10 @@
 import json
 
+def main(config)
+    print(config)
+
 if __name__ == "__main__":
     with open('config.json') as file:
         config = json.load(file)
+
+    main(config)
